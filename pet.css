@@ -1,0 +1,51 @@
+h2{
+    color: hwb(51 6% 12%);
+}
+
+.card{
+    border: black solid 2px;
+    width: 400px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px;
+    
+    
+}
+img{
+    border-radius: 25px;
+    width: 100%;
+}
+
+#jerry{
+    margin-left: 20;
+}
+
+h4{
+    text-align: end;
+    color: rgb(36, 141, 36);
+}
+span{
+    color: rgb(197, 172, 28);
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media(max-width: 375px){
+    #pets{
+        flex-wrap: wrap;
+    }
+    
+   
+}
+
+@media(orientation:portrait){
+    #pets{
+        justify-content: space-around;
+    }
+    
+   
+}
